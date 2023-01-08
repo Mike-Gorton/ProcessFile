@@ -9,7 +9,6 @@ import pathlib
 import psycopg2
 from psycopg2.extras import Json
 
-
 BASE_DIR = pathlib.Path(__file__).parent.resolve()
 datadir = f"{BASE_DIR}/files"
 
@@ -42,6 +41,8 @@ def closeConn(conn):
         if conn is not None:
             conn.close()
 print('Database connection closed.')
+
+
 def process_file():
 
     conn = openConn()
@@ -62,6 +63,8 @@ def process_file():
             file.close()
             os.remove(fullname)
     closeConn(conn)
+
+
 def sql_insert(cursor, dictionary):
 
     job=dictionary['job']
