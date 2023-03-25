@@ -7,7 +7,14 @@ import os
 import json
 import pathlib
 import psycopg2
+import configparser
+
 from psycopg2.extras import Json
+
+config = configparser.ConfigParser()
+config.read('IoT.ini')
+
+host = config['configuration']['filelocation']
 
 BASE_DIR = pathlib.Path(__file__).parent.resolve()
 data_dir = f"{BASE_DIR}/files"
@@ -48,17 +55,21 @@ def close_connection(conn):
 def process_file():
 
     conn = open_connection()
-    for x in os.listdir(data_dir):
+    print('Directory to read ', host)
+    for x in os.listdir(host):
         print(x)
         if os.path.splitext(x)[1] == ".txt" and x.startswith("GHQ"):
-            fullname = os.path.join(data_dir, x)
+            fullname = os.path.join(host, x)
             with open(f"{fullname}", "r") as file:
                 content = file.readlines()
                 for line in content:
                     line = line.strip('\n')
                     print(line)
-                    json_data = json.loads(line)
-
+                    try:
+                        json_data = json.loads(line)
+                    except json.decoder.JSONDecodeError:
+                        print('Decode Error on file: ', x)
+                        break
                     cursor = conn.cursor()
                     sql_insert(cursor, json_data)
                     conn.commit()
@@ -81,7 +92,7 @@ def sql_insert(cursor, dictionary):
     devlog_ip, devlog_job, devlog_timestamp, devlog_status, devlog_subjob, devlog_temprature)
     VALUES( %s,%s,%s,%s,%s,%s) '''
 
-    print(dictionary["job"], dictionary["host"], dictionary["timestamp"], dictionary["status"], dictionary["sub_job"],
+    print('Data Dump', dictionary["job"], dictionary["host"], dictionary["timestamp"], dictionary["status"], dictionary["sub_job"],
           dictionary["temperature"])
     cursor.execute(sql, (str(host), str(job), str(timestamp), str(status), str(sub_job), str(temperature)))
 
