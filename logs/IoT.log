@@ -1,0 +1,60 @@
+[26/Mar/2023 13:54:15] INFO [api_logger:26] Connecting to the PostgresSQL database...
+[26/Mar/2023 13:54:15] INFO [api_logger:31] CONNECTION OPEN:PostgresSQL database version:
+[26/Mar/2023 13:54:15] INFO [api_logger:34] ('PostgreSQL 13.9 (Debian 13.9-0+deb11u1) on aarch64-unknown-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit',)
+[26/Mar/2023 13:54:15] INFO [api_logger:56] Directory to read /nas/node-red/ghq
+[26/Mar/2023 15:44:39] INFO [api_logger:28] Connecting to the PostgresSQL database...
+[26/Mar/2023 15:44:39] INFO [api_logger:33] CONNECTION OPEN:PostgresSQL database version:
+[26/Mar/2023 15:44:39] INFO [api_logger:36] ('PostgreSQL 13.9 (Debian 13.9-0+deb11u1) on aarch64-unknown-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit',)
+[26/Mar/2023 15:48:20] INFO [api_logger:18] Windows
+[26/Mar/2023 15:48:20] INFO [api_logger:29] Connecting to the PostgresSQL database...
+[26/Mar/2023 15:48:20] INFO [api_logger:34] CONNECTION OPEN:PostgresSQL database version:
+[26/Mar/2023 15:48:20] INFO [api_logger:37] ('PostgreSQL 13.9 (Debian 13.9-0+deb11u1) on aarch64-unknown-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit',)
+[26/Mar/2023 15:48:20] INFO [api_logger:59] Directory to read {BASE_DIR}/files
+[26/Mar/2023 18:24:39] INFO [api_logger:18] Windows
+[26/Mar/2023 18:24:39] INFO [api_logger:29] Connecting to the PostgresSQL database...
+[26/Mar/2023 18:24:39] INFO [api_logger:34] CONNECTION OPEN:PostgresSQL database version:
+[26/Mar/2023 18:24:39] INFO [api_logger:37] ('PostgreSQL 13.9 (Debian 13.9-0+deb11u1) on aarch64-unknown-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit',)
+[26/Mar/2023 18:24:39] INFO [api_logger:59] Directory to read C:\Users\mike\Projects\ProcessFile/files
+[26/Mar/2023 18:26:10] INFO [api_logger:18] Windows
+[26/Mar/2023 18:26:10] INFO [api_logger:29] Connecting to the PostgresSQL database...
+[26/Mar/2023 18:26:10] INFO [api_logger:34] CONNECTION OPEN:PostgresSQL database version:
+[26/Mar/2023 18:26:10] INFO [api_logger:37] ('PostgreSQL 13.9 (Debian 13.9-0+deb11u1) on aarch64-unknown-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit',)
+[26/Mar/2023 18:26:10] INFO [api_logger:59] Directory to read C:\Users\mike\Projects\ProcessFile/files
+[26/Mar/2023 18:27:24] INFO [api_logger:18] Windows
+[26/Mar/2023 18:27:24] INFO [api_logger:29] Connecting to the PostgresSQL database...
+[26/Mar/2023 18:27:24] INFO [api_logger:34] CONNECTION OPEN:PostgresSQL database version:
+[26/Mar/2023 18:27:24] INFO [api_logger:37] ('PostgreSQL 13.9 (Debian 13.9-0+deb11u1) on aarch64-unknown-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit',)
+[26/Mar/2023 18:27:24] INFO [api_logger:59] Directory to read C:\Users\mike\Projects\ProcessFile/files
+[26/Mar/2023 18:27:24] INFO [api_logger:48] Closed connection to the PostgresSQL database
+[26/Mar/2023 18:27:24] INFO [api_logger:54] Database connection closed.
+[26/Mar/2023 18:27:59] INFO [api_logger:18] Windows
+[26/Mar/2023 18:27:59] INFO [api_logger:29] Connecting to the PostgresSQL database...
+[26/Mar/2023 18:27:59] INFO [api_logger:34] CONNECTION OPEN:PostgresSQL database version:
+[26/Mar/2023 18:27:59] INFO [api_logger:37] ('PostgreSQL 13.9 (Debian 13.9-0+deb11u1) on aarch64-unknown-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit',)
+[26/Mar/2023 18:27:59] INFO [api_logger:59] Directory to read C:\Users\mike\Projects\ProcessFile/files
+[26/Mar/2023 18:27:59] INFO [api_logger:68] {"job":"Hourly_Job","host":"192.168.1.41","timestamp":"20230326_180001Z","status":"PASS","sub_job":"SUNDAY","temperature":"34.5'C"}
+[26/Mar/2023 18:30:28] INFO [api_logger:18] Windows
+[26/Mar/2023 18:30:28] INFO [api_logger:29] Connecting to the PostgresSQL database...
+[26/Mar/2023 18:30:28] INFO [api_logger:34] CONNECTION OPEN:PostgresSQL database version:
+[26/Mar/2023 18:30:28] INFO [api_logger:37] ('PostgreSQL 13.9 (Debian 13.9-0+deb11u1) on aarch64-unknown-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit',)
+[26/Mar/2023 18:30:28] INFO [api_logger:59] Directory to read C:\Users\mike\Projects\ProcessFile/files
+[26/Mar/2023 18:30:28] INFO [api_logger:68] {"job":"Hourly_Job","host":"192.168.1.41","timestamp":"20230326_180001Z","status":"PASS","sub_job":"SUNDAY","temperature":"34.5'C"}
+[26/Mar/2023 18:30:28] INFO [api_logger:98] Data DumpHourly_Job192.168.1.4120230326_180001ZPASSSUNDAY34.5'C
+[26/Mar/2023 18:30:28] INFO [api_logger:68] {"job":"Hourly_Job","host":"192.168.1.40","timestamp":"20230326_180001Z","status":"PASS","sub_job":"SUNDAY","temperature":"35.5'C"}
+[26/Mar/2023 18:30:28] INFO [api_logger:98] Data DumpHourly_Job192.168.1.4020230326_180001ZPASSSUNDAY35.5'C
+[26/Mar/2023 18:30:28] INFO [api_logger:68] {"job":"Hourly_Job","host":"192.168.1.48","timestamp":"20230326_180001Z","status":"PASS","sub_job":"SUNDAY","temperature":"36.0'C"}
+[26/Mar/2023 18:30:28] INFO [api_logger:98] Data DumpHourly_Job192.168.1.4820230326_180001ZPASSSUNDAY36.0'C
+[26/Mar/2023 18:30:28] INFO [api_logger:68] {"job":"Hourly_Job","host":"192.168.1.48","timestamp":"20230326_160001Z","status":"PASS","sub_job":"SUNDAY","temperature":"35.5'C"}
+[26/Mar/2023 18:30:28] INFO [api_logger:98] Data DumpHourly_Job192.168.1.4820230326_160001ZPASSSUNDAY35.5'C
+[26/Mar/2023 18:30:28] INFO [api_logger:68] {"job":"Hourly_Job","host":"192.168.1.40","timestamp":"20230326_160001Z","status":"PASS","sub_job":"SUNDAY","temperature":"35.5'C"}
+[26/Mar/2023 18:30:28] INFO [api_logger:98] Data DumpHourly_Job192.168.1.4020230326_160001ZPASSSUNDAY35.5'C
+[26/Mar/2023 18:30:28] INFO [api_logger:68] {"job":"Hourly_Job","host":"192.168.1.41","timestamp":"20230326_160001Z","status":"PASS","sub_job":"SUNDAY","temperature":"34.5'C"}
+[26/Mar/2023 18:30:28] INFO [api_logger:98] Data DumpHourly_Job192.168.1.4120230326_160001ZPASSSUNDAY34.5'C
+[26/Mar/2023 18:30:29] INFO [api_logger:68] {"job":"Hourly_Job","host":"192.168.1.48","timestamp":"20230326_170001Z","status":"PASS","sub_job":"SUNDAY","temperature":"36.5'C"}
+[26/Mar/2023 18:30:29] INFO [api_logger:98] Data DumpHourly_Job192.168.1.4820230326_170001ZPASSSUNDAY36.5'C
+[26/Mar/2023 18:30:29] INFO [api_logger:68] {"job":"Hourly_Job","host":"192.168.1.40","timestamp":"20230326_170001Z","status":"PASS","sub_job":"SUNDAY","temperature":"36.5'C"}
+[26/Mar/2023 18:30:29] INFO [api_logger:98] Data DumpHourly_Job192.168.1.4020230326_170001ZPASSSUNDAY36.5'C
+[26/Mar/2023 18:30:29] INFO [api_logger:68] {"job":"Hourly_Job","host":"192.168.1.41","timestamp":"20230326_170001Z","status":"PASS","sub_job":"SUNDAY","temperature":"34.5'C"}
+[26/Mar/2023 18:30:29] INFO [api_logger:98] Data DumpHourly_Job192.168.1.4120230326_170001ZPASSSUNDAY34.5'C
+[26/Mar/2023 18:30:29] INFO [api_logger:48] Closed connection to the PostgresSQL database
+[26/Mar/2023 18:30:29] INFO [api_logger:54] Database connection closed.

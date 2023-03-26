@@ -4,6 +4,7 @@
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
 import os
+import platform
 import json
 import pathlib
 import psycopg2
@@ -14,10 +15,12 @@ def get_configuration():
     global host
     config = configparser.ConfigParser()
     config.read('IoT.ini')
-    host = config['configuration']['filelocation']
-
-    BASE_DIR = pathlib.Path(__file__).parent.resolve()
-    data_dir = f"{BASE_DIR}/files"
+    api_logger.info(platform.system())
+    if platform.system() == 'Windows':
+        BASE_DIR = pathlib.Path(__file__).parent.resolve()
+        host = f"{BASE_DIR}/files"
+    else:
+        host = config['configuration']['filelocation']
 
 def open_connection():
     conn = None
@@ -82,9 +85,9 @@ def sql_insert(cursor, dictionary):
     status = dictionary['status']
     sub_job = dictionary['sub_job']
 
-    if float(dictionary['temperature']):
+    try:
         temperature = float((dictionary['temperature']))
-    else:
+    except ValueError :
         temperature = float('0.00')
 
     sql = '''
@@ -92,7 +95,7 @@ def sql_insert(cursor, dictionary):
     devlog_ip, devlog_job, devlog_timestamp, devlog_status, devlog_subjob, devlog_temprature)
     VALUES( %s,%s,%s,%s,%s,%s) '''
 
-    api_logger.info('Data Dump' + dictionary["job"] + dictionary["host"] + dictionary["timestamp"] + dictionary["status"] + dictionary["sub_job"] +
+    api_logger.info('Data Dump ' + dictionary["job"] + dictionary["host"] + dictionary["timestamp"] + dictionary["status"] + dictionary["sub_job"] +
           dictionary["temperature"])
     cursor.execute(sql, (str(host), str(job), str(timestamp), str(status), str(sub_job), str(temperature)))
 
