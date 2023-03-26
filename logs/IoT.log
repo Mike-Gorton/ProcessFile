@@ -58,3 +58,10 @@
 [26/Mar/2023 18:30:29] INFO [api_logger:98] Data DumpHourly_Job192.168.1.4120230326_170001ZPASSSUNDAY34.5'C
 [26/Mar/2023 18:30:29] INFO [api_logger:48] Closed connection to the PostgresSQL database
 [26/Mar/2023 18:30:29] INFO [api_logger:54] Database connection closed.
+[26/Mar/2023 18:42:23] INFO [api_logger:18] Windows
+[26/Mar/2023 18:42:23] INFO [api_logger:29] Connecting to the PostgresSQL database...
+[26/Mar/2023 18:42:24] INFO [api_logger:34] CONNECTION OPEN:PostgresSQL database version:
+[26/Mar/2023 18:42:24] INFO [api_logger:37] ('PostgreSQL 13.9 (Debian 13.9-0+deb11u1) on aarch64-unknown-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit',)
+[26/Mar/2023 18:42:24] INFO [api_logger:59] Directory to read C:\Users\mike\Projects\ProcessFile/files
+[26/Mar/2023 18:42:24] INFO [api_logger:48] Closed connection to the PostgresSQL database
+[26/Mar/2023 18:42:24] INFO [api_logger:54] Database connection closed.

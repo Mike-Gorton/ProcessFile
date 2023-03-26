@@ -86,7 +86,7 @@ def sql_insert(cursor, dictionary):
     sub_job = dictionary['sub_job']
 
     try:
-        temperature = float((dictionary['temperature']))
+        temperature = float((dictionary['temperature'][:-2]))
     except ValueError :
         temperature = float('0.00')
 
