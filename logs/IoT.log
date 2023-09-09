@@ -65,3 +65,22 @@
 [26/Mar/2023 18:42:24] INFO [api_logger:59] Directory to read C:\Users\mike\Projects\ProcessFile/files
 [26/Mar/2023 18:42:24] INFO [api_logger:48] Closed connection to the PostgresSQL database
 [26/Mar/2023 18:42:24] INFO [api_logger:54] Database connection closed.
+[29/Jun/2023 17:14:51] INFO [api_logger:18] Windows
+[29/Jun/2023 17:14:51] INFO [api_logger:29] Connecting to the PostgresSQL database...
+[29/Jun/2023 17:14:51] INFO [api_logger:34] CONNECTION OPEN:PostgresSQL database version:
+[29/Jun/2023 17:14:51] INFO [api_logger:37] ('PostgreSQL 13.11 (Debian 13.11-0+deb11u1) on aarch64-unknown-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit',)
+[29/Jun/2023 17:14:51] INFO [api_logger:59] Directory to read C:\Development\git\ProcessFile/files
+[29/Jun/2023 17:15:52] INFO [api_logger:18] Windows
+[29/Jun/2023 17:15:52] INFO [api_logger:29] Connecting to the PostgresSQL database...
+[29/Jun/2023 17:15:52] INFO [api_logger:34] CONNECTION OPEN:PostgresSQL database version:
+[29/Jun/2023 17:15:52] INFO [api_logger:37] ('PostgreSQL 13.11 (Debian 13.11-0+deb11u1) on aarch64-unknown-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit',)
+[29/Jun/2023 17:15:52] INFO [api_logger:59] Directory to read C:\Development\git\ProcessFile/files
+[29/Jun/2023 17:15:52] INFO [api_logger:48] Closed connection to the PostgresSQL database
+[29/Jun/2023 17:15:52] INFO [api_logger:54] Database connection closed.
+[29/Jun/2023 17:18:40] INFO [api_logger:18] Windows
+[29/Jun/2023 17:18:40] INFO [api_logger:29] Connecting to the PostgresSQL database...
+[29/Jun/2023 17:18:40] INFO [api_logger:34] CONNECTION OPEN:PostgresSQL database version:
+[29/Jun/2023 17:18:40] INFO [api_logger:37] ('PostgreSQL 13.11 (Debian 13.11-0+deb11u1) on aarch64-unknown-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit',)
+[29/Jun/2023 17:18:40] INFO [api_logger:59] Directory to read C:\Development\git\ProcessFile/files
+[29/Jun/2023 17:18:40] INFO [api_logger:48] Closed connection to the PostgresSQL database
+[29/Jun/2023 17:18:40] INFO [api_logger:54] Database connection closed.
