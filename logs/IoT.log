@@ -84,3 +84,10 @@
 [29/Jun/2023 17:18:40] INFO [api_logger:59] Directory to read C:\Development\git\ProcessFile/files
 [29/Jun/2023 17:18:40] INFO [api_logger:48] Closed connection to the PostgresSQL database
 [29/Jun/2023 17:18:40] INFO [api_logger:54] Database connection closed.
+[09/Sep/2023 15:32:41] INFO [api_logger:18] Windows
+[09/Sep/2023 15:32:41] INFO [api_logger:29] Connecting to the PostgresSQL database...
+[09/Sep/2023 15:33:02] ERROR [api_logger:40] connection to server at "192.168.1.44", port 5432 failed: Connection timed out (0x0000274C/10060)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[09/Sep/2023 15:33:02] INFO [api_logger:59] Directory to read C:\Development\git\ProcessFile/files
+[09/Sep/2023 15:33:02] ERROR [api_logger:50] 'NoneType' object has no attribute 'close'
